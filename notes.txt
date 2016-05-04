@@ -22,6 +22,11 @@ To pull the latest repo changes and update your local repo:
 
 ###################
 drop new [script folder] in /GOLDEN
+git init
+edit a file 
+commit -a
+initial commit
+git push
 
 cd /home/syreen/scripts/DEVELOPMENT/versionOne/
 git clone ~/scripts/GOLDEN/[script folder]
