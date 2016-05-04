@@ -1,0 +1,20 @@
+Clone GIT repo:
+git clone git@mdc2vr4083:cookbooks.git	-- for cookbooks project
+Create branch:
+	git branch branchName	-- branchName is a name you supply
+Switch between branches:
+	git checkout branchName || git checkout master
+Check which branch currently on:
+	git branch
+To add changes to commit:
+	git add file.txt	-- file.txt is the file you made a change to
+To commit change:
+	git commit –m ‘#3436 your message’	--#3436 is the mingle story number
+To push changes once they are committed:
+	git push origin branchName || git push origin master		-- good practice to use origin
+To merge changes from branch to master:
+	git checkout master	-- to make sure you are on master branch
+	git merge branchName	-- to merge your changes from branchName
+	git push origin master 	-- to push the changes that you merged to master 
+To pull the latest repo changes and update your local repo:
+	git pull
