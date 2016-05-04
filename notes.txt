@@ -18,3 +18,17 @@ To merge changes from branch to master:
 	git push origin master 	-- to push the changes that you merged to master 
 To pull the latest repo changes and update your local repo:
 	git pull
+
+
+###################
+drop new [script folder] in /GOLDEN
+
+cd /home/syreen/scripts/DEVELOPMENT/versionOne/
+git clone ~/scripts/GOLDEN/[script folder]
+
+cd /home/syreen/scripts/GOLDEN/[script folder]
+git checkout -b temp
+git status
+
+git merge master
+
